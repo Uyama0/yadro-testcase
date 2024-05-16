@@ -52,6 +52,7 @@ export class AppComponent {
     if (!this.previousRates || !this.rates) return;
 
     const rateKeys = Object.keys(this.rates);
+    
 
     for (const key of rateKeys) {
       const rate = this.rates[key];
